@@ -1,0 +1,112 @@
+html, body, div {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #fff;
+  font-family: 'Raleway', sans-serif;
+  transition: 0.4s;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: #fff;
+}
+
+:root {
+  --primary-color: #6200ea;
+  --secondary-color: #0a00b6;
+}
+
+.color-change-body {
+  background-color: #1c1c1c;
+  transition: 0.4s;
+}
+
+#title {
+  text-align: center;
+  background-color: #6200ea;
+  background-color: var(--primary-color);
+  border-top: #0a00b6;
+  border-top: 10px solid var(--secondary-color);
+  padding: 10px;
+  margin: 20px auto;
+  width: 30%;
+  transition: 0.3s;
+}
+
+#title:hover, #afterword:hover  {
+  transform: translate(-5px, -5px);
+  box-shadow: 20px 15px #9d46ff;
+  transition: 0.3s;
+}
+
+#img-div {
+  text-align: center;
+  background-color: #6200ea;
+  background-color: var(--primary-color);
+  border-top: #0a00b6;
+  border-top: 10px solid var(--secondary-color);
+  padding: 25px;
+  margin: auto;
+  width: 50%;
+  transition: 0.3s;
+}
+
+#img-div:hover, #tribute-info:hover {
+  transform: translate(-10px, -5px);
+  box-shadow: 25px 20px #9d46ff;
+  transition: 0.3s;
+}
+
+#img-caption {
+  font-size: 15px;
+  font-style: italic;
+}
+
+#image {
+  width: 75%;
+}
+
+#tribute-info {
+  text-align: center;
+  background-color: #6200ea;
+  background-color: var(--primary-color);
+  padding: 25px;
+  margin: 30px auto;
+  border-top: #0a00b6;
+  border-top: 10px solid var(--secondary-color);
+  width: 50%;
+  transition: 0.3s;
+}
+
+#tribute-info > h3 {
+  text-align: left;
+  background-color: #0a00b6;
+  background-color: var(--secondary-color);
+  padding: 10px 45px;
+  width: 40px;
+  box-shadow: 10px 10px #9d46ff;
+}
+
+#tribute-info > p {
+  text-align: left;
+  padding: 0 45px;
+}
+
+#afterword {
+  text-align: center;
+  background-color: #6200ea;
+  background-color: var(--primary-color);
+  padding: 25px;
+  margin: 30px auto;
+  border-top: #0a00b6;
+  border-top: 10px solid var(--secondary-color);
+  width: 50%;
+  transition: 0.3s;
+}
